@@ -13,9 +13,10 @@
 		2D9798F22B6B35E7001BF997 /* AnimationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9798F12B6B35E7001BF997 /* AnimationsListView.swift */; };
 		2D9798F52B6B36F4001BF997 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2D9798F42B6B36F4001BF997 /* Lottie */; };
 		2D9798F72B6B373E001BF997 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9798F62B6B373E001BF997 /* LottieView.swift */; };
-		2D9798FA2B6B38F3001BF997 /* Animation - 1706754288578.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D9798F92B6B38F3001BF997 /* Animation - 1706754288578.json */; };
-		2D9798FC2B6B3973001BF997 /* Animation - 1706754497228.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D9798FB2B6B3973001BF997 /* Animation - 1706754497228.json */; };
-		2D9798FE2B6B3A03001BF997 /* Animation - 1706754661578.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D9798FD2B6B3A03001BF997 /* Animation - 1706754661578.json */; };
+		2D9798FC2B6B3973001BF997 /* CoffeeLeaves.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D9798FB2B6B3973001BF997 /* CoffeeLeaves.json */; };
+		2D9799002B6B3AA1001BF997 /* FavouriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9798FF2B6B3AA1001BF997 /* FavouriteAnimation.swift */; };
+		2D9799042B6C7A00001BF997 /* DancingCoffeeBeans.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D9799032B6C7A00001BF997 /* DancingCoffeeBeans.json */; };
+		2D97990A2B6C7A5D001BF997 /* CoffeeTreeAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D9799092B6C7A5D001BF997 /* CoffeeTreeAnimation.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +26,10 @@
 		2D9798E82B6B3575001BF997 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D9798F12B6B35E7001BF997 /* AnimationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListView.swift; sourceTree = "<group>"; };
 		2D9798F62B6B373E001BF997 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
-		2D9798F92B6B38F3001BF997 /* Animation - 1706754288578.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1706754288578.json"; sourceTree = "<group>"; };
-		2D9798FB2B6B3973001BF997 /* Animation - 1706754497228.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1706754497228.json"; sourceTree = "<group>"; };
-		2D9798FD2B6B3A03001BF997 /* Animation - 1706754661578.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1706754661578.json"; sourceTree = "<group>"; };
+		2D9798FB2B6B3973001BF997 /* CoffeeLeaves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CoffeeLeaves.json; sourceTree = "<group>"; };
+		2D9798FF2B6B3AA1001BF997 /* FavouriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAnimation.swift; sourceTree = "<group>"; };
+		2D9799032B6C7A00001BF997 /* DancingCoffeeBeans.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DancingCoffeeBeans.json; sourceTree = "<group>"; };
+		2D9799092B6C7A5D001BF997 /* CoffeeTreeAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CoffeeTreeAnimation.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		2D9798EF2B6B35A4001BF997 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2D9798FF2B6B3AA1001BF997 /* FavouriteAnimation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -98,9 +101,9 @@
 		2D9798F82B6B38A9001BF997 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
-				2D9798FD2B6B3A03001BF997 /* Animation - 1706754661578.json */,
-				2D9798FB2B6B3973001BF997 /* Animation - 1706754497228.json */,
-				2D9798F92B6B38F3001BF997 /* Animation - 1706754288578.json */,
+				2D9799092B6C7A5D001BF997 /* CoffeeTreeAnimation.json */,
+				2D9798FB2B6B3973001BF997 /* CoffeeLeaves.json */,
+				2D9799032B6C7A00001BF997 /* DancingCoffeeBeans.json */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -170,10 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D9798E92B6B3575001BF997 /* Preview Assets.xcassets in Resources */,
-				2D9798FC2B6B3973001BF997 /* Animation - 1706754497228.json in Resources */,
+				2D9798FC2B6B3973001BF997 /* CoffeeLeaves.json in Resources */,
+				2D97990A2B6C7A5D001BF997 /* CoffeeTreeAnimation.json in Resources */,
 				2D9798E62B6B3575001BF997 /* Assets.xcassets in Resources */,
-				2D9798FA2B6B38F3001BF997 /* Animation - 1706754288578.json in Resources */,
-				2D9798FE2B6B3A03001BF997 /* Animation - 1706754661578.json in Resources */,
+				2D9799042B6C7A00001BF997 /* DancingCoffeeBeans.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D9799002B6B3AA1001BF997 /* FavouriteAnimation.swift in Sources */,
 				2D9798E22B6B3573001BF997 /* LottieAnimationsListApp.swift in Sources */,
 				2D9798F22B6B35E7001BF997 /* AnimationsListView.swift in Sources */,
 				2D9798F72B6B373E001BF997 /* LottieView.swift in Sources */,
